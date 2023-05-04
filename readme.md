@@ -18,6 +18,8 @@ This is the current list at this point in time, be sure to repeat this everytime
 ts-node stats.ts
 ```
 
+auto.sh has been added to take the figure and submit it to the sui binary 
+
 Will print out a simple statistical analysis.
 
 ## What it tells you
