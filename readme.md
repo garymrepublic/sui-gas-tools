@@ -1,12 +1,12 @@
 ## Required packages
-
+```bash
 curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 sudo apt install nodejs
 npm i --save-dev @types/node
 npm install --save-dev @types/node
 npm install -g typescript
 npm install -g ts-node
-
+```
 Run this command to generate the validators list
 ```bash
 sh update_validators.sh
