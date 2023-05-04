@@ -1,3 +1,25 @@
+## Required packages
+
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+sudo apt install nodejs
+npm i --save-dev @types/node
+npm install --save-dev @types/node
+npm install -g typescript
+npm install -g ts-node
+
+Run this command to generate the validators list
+```bash
+sh update_validators.sh
+```
+
+Test it works
+
+```bash
+sh update_validators.sh
+```
+
+Then you should be good to use auto.sh
+
 # Sui Gas Price Tools
 
 This repo helps with rudimentary analysis of Sui validators' future reference gas price to allow operators to apply their own algorithms in determining their ideal future reference gas price.
@@ -27,3 +49,4 @@ Will print out a simple statistical analysis.
 The reference gas price is the price submitted by the last validator that falls within the lower two thirds of submitted gas prices in the survey.
 
 From this data you can determine what reference price to set for yourself based on your individual per epoch costs and profitability.
+
