@@ -15,7 +15,7 @@ sh update_validators.sh
 Test it works
 
 ```bash
-sh update_validators.sh
+ts-node stats.ts
 ```
 
 Then you should be good to use auto.sh
